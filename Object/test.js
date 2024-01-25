@@ -63,6 +63,7 @@ let ferry = new Mahasiswa("ferry", 10);
 // }
 // let sandhika = mahasiswa("sandhika", 10);
 // let ferry = mahasiswa("ferry", 25);
+
 // Construct Function
 
 // function mahasiswa(nama, energi) {

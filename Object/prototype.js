@@ -22,11 +22,11 @@ class Mahasiswa {
 
   makan(porsi) {
     this.energi += porsi;
-    console.log(`Hallo ${this.nama} Selamat makan`);
+    return `Hallo ${this.nama} Selamat makan`;
   }
   main(jam) {
     this.energi -= jam;
-    console.log("Kamu sudah bermain " + jam + " jam waktunya pulang");
+    return "Kamu sudah bermain " + jam + " jam waktunya pulang";
   }
 }
 
